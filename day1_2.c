@@ -9,3 +9,13 @@ int main() {
 
     return 0;
 }
+
+/*
+OUTPUT 1:
+Input: 10 2
+Output: Sum=12, Diff=8, Product=20, Quotient=5
+
+OUTPUT 2:
+Input: 7 3
+Output: Sum=10, Diff=4, Product=21, Quotient=2
+*/
