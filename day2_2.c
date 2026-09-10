@@ -9,3 +9,13 @@ int main() {
 
     return 0;
 }
+
+/*
+OUTPUT 1:
+Input: 7
+Output: Area=153.94, Circumference=43.96
+
+OUTPUT 2:
+Input: 3
+Output: Area=28.27, Circumference=18.85
+*/
