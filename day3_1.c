@@ -1,10 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int length, breadth;
+    float celsius, fahrenheit;
 
-    scanf("%d %d", &length, &breadth);
-    printf("Area=%d, Perimeter=%d\n", length * breadth, 2 * (length + breadth));
+    scanf("%f", &celsius);
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    printf("Fahrenheit=%.0f\n", fahrenheit);
 
     return 0;
 }
+
+/*
+OUTPUT 1:
+Input: 0
+Output: Fahrenheit=32
+
+OUTPUT 2:
+Input: 100
+Output: Fahrenheit=212
+*/
