@@ -9,12 +9,4 @@ int main() {
     return 0;
 }
 
-/*
-OUTPUT 1:
-Input: 3 4
-Output: Sum = 7
 
-OUTPUT 2:
-Input: -1 20
-Output: Sum = 19
-*/
